@@ -12,7 +12,7 @@ import {
 
 import './srd.css';
 
-class Diagram extends React.Component {
+class DemoOne extends React.Component {
 	componentWillMount() {
 		this.engine = new DiagramEngine();
 
@@ -50,4 +50,4 @@ class Diagram extends React.Component {
 	}
 }
 
-export default Diagram;
+export default DemoOne;
