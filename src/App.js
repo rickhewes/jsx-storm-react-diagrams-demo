@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import DemoOne from './DemoOne';
 import DemoTwo from './DemoTwo';
+import DemoThree from './DemoThree';
 import Menu from './Menu';
 import './App.css';
 
@@ -16,6 +17,7 @@ class App extends Component {
             <Route path="/" exact component={Menu} />
             <Route path="/demo1" component={DemoOne} />
             <Route path="/demo2" component={DemoTwo} />
+            <Route path="/demo3" component={DemoThree} />
             <Route default component={FourOhFour} />
           </Switch>
         </div>

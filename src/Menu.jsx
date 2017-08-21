@@ -12,6 +12,9 @@ class Menu extends React.Component {
 					<ListItem button component="a" href="/demo2">
 						<ListItemText primary="Demo 2" />
 					</ListItem>
+					<ListItem button component="a" href="/demo3">
+						<ListItemText primary="Demo 3" />
+					</ListItem>
 				</List>
 			</div>
 		);
