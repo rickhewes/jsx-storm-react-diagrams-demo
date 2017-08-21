@@ -4,7 +4,7 @@
 	display: flex;
 	cursor: move;
 	overflow: hidden;
-	height: 600px;
+	height: 800px;
 	background-color: rgb(60, 60, 60);
 }
 .storm-diagrams-canvas .point {
