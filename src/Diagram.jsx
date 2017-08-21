@@ -1,5 +1,3 @@
-// @flow
-
 import React from 'react';
 import {
 	DiagramWidget,
@@ -11,6 +9,8 @@ import {
 	DefaultPortModel,
 	LinkModel
 } from 'storm-react-diagrams';
+
+import './srd.css';
 
 class Diagram extends React.Component {
 	componentWillMount() {
