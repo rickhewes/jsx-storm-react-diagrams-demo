@@ -26,6 +26,9 @@ class Menu extends React.Component {
 					<li>
 						<Link to="demo6">Demo 6</Link> - Serialise & Deserialise
 					</li>
+					<li>
+						<Link to="demo7">Demo 7</Link> - Snap to grid
+					</li>
 				</ul>
 			</div>
 		);
