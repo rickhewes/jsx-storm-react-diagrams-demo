@@ -4,6 +4,7 @@ import DemoOne from './DemoOne';
 import DemoTwo from './DemoTwo';
 import DemoThree from './DemoThree';
 import DemoFour from './DemoFour';
+import DemoSix from './DemoSix';
 import Menu from './Menu';
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path="/demo2" component={DemoTwo} />
             <Route path="/demo3" component={DemoThree} />
             <Route path="/demo4" component={DemoFour} />
+            <Route path="/demo6" component={DemoSix} />
             <Route component={Menu} />
           </Switch>
         </div>
