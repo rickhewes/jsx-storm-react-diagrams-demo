@@ -22,7 +22,9 @@ class Menu extends React.Component {
 					<li>
 						<Link to="demo4">Demo 4</Link> - Read only diagram
 					</li>
-					<li>Demo 5 - Drag and drop (TBC)</li>
+					<li>
+						<Link to="demo5">Demo 5</Link> - Drag and drop
+					</li>
 					<li>
 						<Link to="demo6">Demo 6</Link> - Serialise & Deserialise
 					</li>
