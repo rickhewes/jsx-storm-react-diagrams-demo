@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import DemoOne from './DemoOne';
 import DemoTwo from './DemoTwo';
 import DemoThree from './DemoThree';
@@ -11,17 +11,16 @@ const FourOhFour = () => <h1>404</h1>;
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="app">
           <Switch>
-            <Route path="/" exact component={Menu} />
             <Route path="/demo1" component={DemoOne} />
             <Route path="/demo2" component={DemoTwo} />
             <Route path="/demo3" component={DemoThree} />
-            <Route default component={FourOhFour} />
+            <Route component={Menu} />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

@@ -1,21 +1,22 @@
 import React from 'react';
 import List, { ListItem, ListItemText } from 'material-ui/List';
+import { Link } from 'react-router-dom';
 
 class Menu extends React.Component {
 	render() {
 		return (
 			<div>
-				<List>
-					<ListItem button component="a" href="/demo1">
-						<ListItemText primary="Demo 1" />
-					</ListItem>
-					<ListItem button component="a" href="/demo2">
-						<ListItemText primary="Demo 2" />
-					</ListItem>
-					<ListItem button component="a" href="/demo3">
-						<ListItemText primary="Demo 3" />
-					</ListItem>
-				</List>
+				<ul>
+					<li>
+						<Link to="demo1">Demo 1</Link>
+					</li>
+					<li>
+						<Link to="demo2">Demo 2</Link>
+					</li>
+					<li>
+						<Link to="demo3">Demo 3</Link>
+					</li>
+				</ul>
 			</div>
 		);
 	}
